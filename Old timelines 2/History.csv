@@ -106,9 +106,9 @@ date,label
 1926,"solar eclipse of January 14, 1926"
 1926,Nicaraguan Civil War of 1926–1927
 1926,"solar eclipse of July 9, 1926"
-1927,1927 New Jersey state highway renumbering
-1927,1927 state highway renumbering
 1927,1927 Ohio state highway renumbering
+1927,1927 state highway renumbering
+1927,1927 New Jersey state highway renumbering
 1927,"solar eclipse of January 3, 1927"
 1927,"solar eclipse of June 29, 1927"
 1927,"solar eclipse of December 24, 1927"
@@ -162,9 +162,9 @@ date,label
 1939,May 1939 lunar eclipse
 1939,1 September 1939 Reichstag speech
 1939,"solar eclipse of October 12, 1939"
+1940,1940 Virginia state highway renumbering
 1940,1947–1948 Civil War in Mandatory Palestine
 1940,The Exodus
-1940,1940 Virginia state highway renumbering
 1940,March 1940 lunar eclipse
 1940,"solar eclipse of April 7, 1940"
 1940,1940 Norwegian coup d'état
@@ -435,8 +435,8 @@ date,label
 1983,Sri Lankan civil war
 1983,"solar eclipse of December 4, 1983"
 1983,December 1983 lunar eclipse
-1984,"Jesse Jackson presidential campaign, 1984"
 1984,1984 Soviet Union tornado outbreak
+1984,"Jesse Jackson presidential campaign, 1984"
 1984,"solar eclipse of May 30, 1984"
 1984,June 1984 lunar eclipse
 1984,"solar eclipse of November 22, 1984"
@@ -446,8 +446,8 @@ date,label
 1985,1985 United States – Canadian tornado outbreak
 1985,October 1985 lunar eclipse
 1985,"solar eclipse of November 12, 1985"
-1986,Baxter v. United States
 1986,1986 enlargement of the European Communities
+1986,Baxter v. United States
 1986,South Yemen civil war
 1986,"solar eclipse of April 9, 1986"
 1986,"solar eclipse of October 3, 1986"
@@ -456,9 +456,9 @@ date,label
 1987,Tear down this wall!
 1987,Edmonton tornado
 1987,October 1987 lunar eclipse
-1988,"Ron Paul presidential campaign, 1988"
-1988,"Jesse Jackson presidential campaign, 1988"
 1988,"Michael Dukakis presidential campaign, 1988"
+1988,"Jesse Jackson presidential campaign, 1988"
+1988,"Ron Paul presidential campaign, 1988"
 1988,March 1988 lunar eclipse
 1988,"solar eclipse of March 18, 1988"
 1988,August 1988 lunar eclipse
@@ -541,13 +541,13 @@ date,label
 1999,1999 Russian apartment bombings
 1999,2000 millennium attack plots
 1999,Republica oficina the Congo Civil War
+2000,"Pat Buchanan presidential campaign, 2000"
+2000,"Ralph Nader presidential campaign, 2000"
+2000,Guerrilla phase of the Second Chechen War
+2000,20th century departures of foreign nationals from Egypt
 2000,Jewish exodus from the Muslim world
 2000,Jewish exodus from the Muslim world
 2000,"Harry Browne presidential campaign, 2000"
-2000,Guerrilla phase of the Second Chechen War
-2000,20th century departures of foreign nationals from Egypt
-2000,"Ralph Nader presidential campaign, 2000"
-2000,"Pat Buchanan presidential campaign, 2000"
 2000,January 2000 lunar eclipse
 2000,"solar eclipse of February 5, 2000"
 2000,2000 Easter Sunday tornado outbreak
@@ -575,17 +575,17 @@ date,label
 2004,"Ralph Nader presidential campaign, 2004"
 2004,"Michael Badnarik presidential campaign, 2004"
 2004,"solar eclipse of April 19, 2004"
-2004,2004 enlargement of the European Union
-2004,accession of Cyprus to the European Union
-2004,accession of Estonia to the European Union
+2004,accession of Malta to the European Union
+2004,accession of Poland to the European Union
+2004,accession of Slovenia to the European Union
+2004,accession of Slovakia to the European Union
+2004,accession of Czech Republic to the European Union
 2004,accession of Hungary to the European Union
 2004,accession of Lithuania to the European Union
+2004,accession of Estonia to the European Union
+2004,accession of Cyprus to the European Union
+2004,2004 enlargement of the European Union
 2004,accession of Latvia to the European Union
-2004,accession of Czech Republic to the European Union
-2004,accession of Slovakia to the European Union
-2004,accession of Slovenia to the European Union
-2004,accession of Poland to the European Union
-2004,accession of Malta to the European Union
 2004,"solar eclipse of October 14, 2004"
 2004,October 2004 lunar eclipse
 2005,Southern Ontario Tornado Outbreak of 2005
@@ -653,9 +653,9 @@ date,label
 2013,2013 enlargement of the European Union
 2013,October 2013 lunar eclipse
 2013,"solar eclipse of November 3, 2013"
-2014,Crimean speech of Vladimir Putin
 2014,2014 Valdai speech of Vladimir Putin
 2014,La Salida
+2014,Crimean speech of Vladimir Putin
 2014,"solar eclipse of April 29, 2014"
 2014,Casamance conflict
 2014,Death of Ms Dhu
