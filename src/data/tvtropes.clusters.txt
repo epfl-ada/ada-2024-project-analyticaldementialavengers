@@ -1,4 +1,5 @@
 character_types	ID_field
+character_types	ID_field
 absent_minded_professor	"{""char"": ""Professor Philip Brainard"", ""movie"": ""Flubber"", ""id"": ""/m/0jy9q0"", ""actor"": ""Robin Williams""}"
 absent_minded_professor	"{""char"": ""Professor Keenbean"", ""movie"": ""Richie Rich"", ""id"": ""/m/02vchl3"", ""actor"": ""Michael McShane""}"
 absent_minded_professor	"{""char"": ""Dr. Reinhardt Lane"", ""movie"": ""The Shadow"", ""id"": ""/m/0k6fkc"", ""actor"": ""Ian McKellen""}"

@@ -1,6 +1,7 @@
 unique_character_name	freebase_actor_id
 unique_character_name	freebase_actor_id
 unique_character_name	freebase_actor_id
+unique_character_name	freebase_actor_id
 Stuart Little	/m/0k3w9c
 Stuart Little	/m/0k3wcx
 Stuart Little	/m/0k3wbn
