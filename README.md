@@ -18,4 +18,6 @@ natural catastrophes) ?
 Are era having a similar historical context presenting the same stereotypical characters ?
 
 ## Additional dataset : 
-Wikipedia timeline
+In order to match historical moments with the results obtained in the other sections, we need a rather comprehensive timeline of the most relevant events of the years included in the film dataset. 
+To do this, we implemented several methods to objectively obtain significant events, such as extracting content from wikipedia pages or downloading more precise datasets using Wikidata queries. 
+In doing so, we realised that using datasets that are too long does not allow us, with the time and means at our disposal, to be able to analyse these events in depth. For example, dividing wars by nation is very difficult, as it involves a part of manual data addition, which can never be objective (e.g. are economic supporters of the war included or not, how are political parties belonging to several nations treated?, ...). For this reason, for project milestone 3 we have chosen to focus on fewer events, but which can be clearly and objectively treated, e.g. world wars, the cold war, the economic crisis of ‘29 and events of this magnitude.
