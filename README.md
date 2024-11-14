@@ -70,9 +70,13 @@ From a technical perspective, Ada’s journey begins with an introduction at the
 ## Organization within the team : 
 
 Léa : LDA + statistical analysis + clustering analysis
+
 Camille : BERT + statistical analysis + ML 
+
 Samara : Timeline extraction + data story + website 
+
 Sara : Dataset exploration + data visualization + website
+
 Annabelle : LDA + GPT-4 + ML
 
 ## Questions : 
