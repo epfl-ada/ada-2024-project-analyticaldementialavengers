@@ -5,18 +5,16 @@ A given historical context has a high influence on the topics approached in its 
 This project will begin by exploring various ways of extracting character related information from movie summaries. Then, we will use this information in order to get meaningful insights on the impact of historical event in character portrayal in films. Finally, we aim to create a time journey in which we will meet some time stereotypes and, maybe, given our own historical context, be able to predict what is the incoming character movie star that will be seen played for perhaps the future ten years or more.
 
 ## Research Questions : 
-Does important historical events induce the creation of corresponding stereotypical characters in their contemporary movies ?
+Does important historical events induce the creation of corresponding stereotypical characters in their contemporary movies ? For example, did the World War II induce a higher occurrence of soldiers characters in the ten years following it ? 
 
-Does a time-lapse exist between the event and its representation in the movie database ?
+Does a time-lapse exist between the event and its representation in the movie database ? From previous examples, when is the peak of soldiers representation in the movies, during the war, five years after or more ?
 
-Can we predict the stereotypical characters of an era given its historical context ?
+Can we predict the stereotypical characters of an era given its historical context ? Is it possible to train a model to perform such a task ?
 
-What types of events were the most influential of the stereotypical character representation over the
-
-twentieth century (ex : wars, social revolutions,
+What types of events were the most influential of the stereotypical character representation over the twentieth century (ex : wars, social revolutions,
 natural catastrophes) ? 
 
-Are era having a similar historical context presenting the same stereotypical characters ?
+Are eras having a similar historical context presenting the same stereotypical characters ?
 
 ## Additional dataset : 
 In order to match historical moments with the results obtained in the other sections, we need a rather comprehensive timeline of the most relevant events of the years included in the film dataset. 
