@@ -27,7 +27,7 @@ In doing so, we realised that using datasets that are too long does not allow us
 
 We tested two main techniques to extracte characters description from the text (see in results.ipynb for more details) : 
 1. NLTK combined with LDA
-2. BERT combined with Spacy
+2. BERT (Named Entity Recognition) combined with Spacy
 
 We also intend to try a more performant LLM than BERT like GPT-4 to perform the extraction.
 
@@ -37,9 +37,42 @@ We intend to perform our analysis in this way :
 We decided to split our dataset by decade. 
 1. Using the previously cited tool we will obtain the most recurrent names and adjectives qualifying the characters for each decade (see examples in results.ipynb).
 2. This will allow us to performed bar and cloud plots illustrating the most common characters name and adjectives that they are described with for each decade (see examples in results.ipynb).
-3. We intend execute some hypothesis testing to compare the occurrence of adjectives or names between the different decades (and maybe some specific historical contexts).
-4. We will also push our analysis further by performing some clustering of the decades or movies within a decade or a historical context by the words related to the characters in them. 
+3. We intend execute some hypothesis testing and calculate correlations to compare the occurrence of adjectives or names between the different decades (and maybe some specific historical contexts).
+4. We will also push our analysis further by performing some clustering of the decades or movies within a decade or a historical context by the words related to the characters in them.
+
+### Eventual predictive model : 
+
+If we have some time left, we might try to fit a machine learning model (regression or neural network) on encoded subsections of the timeline and corresponding character describing adjectives.  
+
+### Website concept : 
+
+Our vision for the website is to create an interactive, historical timeline featuring Ada, a timeless traveler. Starting in 1910, Ada journeys through each decade, encountering significant historical events and iconic film characters that embody the spirit of their eras. When we uncover connections between historical events and film characters, these characters reveal how each decade's society is reflected in cinema. Ada could either adapt her appearance to align with each era’s customs, mirroring these characters, or remain ‘neutral’ to highlight the transformations she experiences across time. At each stop, the characters she meets explain the events of their time and how they personify those changes. If possible, we aim to add a machine learning model to predict how film characters may evolve over the next 10–15 years, drawing on current events.
+
+From a technical perspective, Ada’s journey begins with an introduction at the start of the timeline, followed by her journey through each decade as the user scrolls. Each stop on the timeline features 1–2 film characters representing typical figures of the era, who engage in dialogue with Ada against a backdrop of period-specific photos and plots illustrating our analysis. The “dialogues” could be structured vertically, with characters accompanying Ada as she travels downward, or horizontally, with images and narratives displayed sequentially across the screen.
 
 
 ## Proposed timeline :
 
+22.10.24 : Team zoom call to discuss first results after dataset discovery
+
+28.10.24 : Explore how the timeline can be extracted from Wikipedia ; Further analyze the dataset
+
+08.11.24 : Analyze movie genre distribution analysis ; Implement LDA and LLM methods in order to analyze plot.summaries dataset ; Extract timeline
+
+15.11.24 : README; Prepare results notebook ; push the LDA + LLM analysis further
+
+06.12.24 : Collecting necessary data for each decade ; Try GPT-4 for information extraction; Begin the inter decade statistical analysis ; Create website
+
+13.12.24 : Clustering analysis ; Maybe some ML ; Pursue website
+
+20.12.24 : Project wrap up
+
+## Organization within the team : 
+
+Léa : LDA + statistical analysis + clustering analysis
+Camille : BERT + statistical analysis + ML 
+Samara : Timeline extraction + data story + website 
+Sara : Dataset exploration + data visualization + website
+Annabelle : LDA + GPT-4 + ML
+
+## Questions : 
