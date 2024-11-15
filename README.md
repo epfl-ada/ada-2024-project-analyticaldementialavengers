@@ -1,20 +1,26 @@
 # The metamorphosis of Movie Archetypes: A timeless tale of film personas
 
 ## Abstract
-A given historical context has a high influence on the topics approached in its contemporary movies. Typically, the Japanese animes were a catharsis of the traumas caused by the Second World War to the Japanese population. In this research, we aim to investigate whether this influence extends to the characters portrayed in the movies. Has each era a stereotypical character derived from time corresponding historical events (i.e. : are more soldiers characters presented after war events or more astronauts during the space exploration period) ? 
-This project will begin by exploring various methods of character related information extraction from movie summaries. Then, we will use this information in order to get meaningful insights on the impact of historical event in character portrayal in films. Finally, we aim to create a time journey in which we will meet some time stereotypes and, maybe, given our own historical context, be able to predict what is the incoming character movie star that will be seen played for perhaps the future ten years or more.
+In this research, we explore the influence of historical context on character portrayal in films. While
+it's established that contemporary events shape movie themes, as seen in Japanese anime's cathartic
+response to World War II traumas, we aim to investigate whether this extends to character
+archetypes. Our hypothesis is that each era produces stereotypical characters reflective of its
+historical events, such as an increase in soldier characters post-war or astronauts during space
+exploration periods. The study will begin by developing methods to extract character-related
+information from datasets. This data will then be analyzed to gain insights into the correlation
+between historical events and character representation in films. 
+Our goal is to create a chronological journey through cinematic character archetypes, identifying
+time-specific stereotypes. Ultimately, we hope to use our findings to predict emerging character
+archetypes for the coming decade, based on our current historical context. This research will
+contribute to our understanding of how cinema reflects and responds to societal changes over time
 
 ## Research Questions : 
-Does important historical events induce the creation of corresponding stereotypical characters in their contemporary movies ? For example, did the World War II induce a higher occurrence of soldiers characters in the ten years following it ? 
-
-Does a time-lapse exist between the event and its character representation in the movie database ? From previous examples, when is the peak of soldiers representation in the movies, during the war, five years after or more ?
-
-What types of events were the most influential of the stereotypical character representation over the twentieth century (ex : wars, social revolutions,
+1. Does important historical events induce the creation of corresponding stereotypical characters in their contemporary movies ? For example, did the World War II induce a higher occurrence of soldiers characters in the ten years following it ? 
+2. Does a time-lapse exist between the event and its character representation in the movie database ? From previous examples, when is the peak of soldiers representation in the movies, during the war, five years after or more ?
+3. What types of events were the most influential of the stereotypical character representation over the twentieth century (ex : wars, social revolutions,
 natural catastrophes) ? 
-
-Are eras having a similar historical context presenting the same stereotypical characters ?
-
-Can we predict the stereotypical characters of an era given its historical context ? Is it possible to train a model to perform such a task ?
+4. Are eras having a similar historical context presenting the same stereotypical characters ?
+5. Can we predict the stereotypical characters of an era given its historical context ? Is it possible to train a model to perform such a task ?
 
 ## Additional dataset : 
 In order to match historical moments with the results obtained in the other sections, we need a rather comprehensive timeline of the most relevant events of the years included in the film dataset. 
@@ -43,12 +49,6 @@ For the most part of our analysis, we decided to split our dataset by decade, wi
 ### Eventual predictive model : 
 
 If we have some time left, we might try to fit a machine learning model (regression or neural network) on encoded subsections of the timeline and corresponding character describing adjectives.  
-
-### Website concept : 
-
-Our vision for the website is to create an interactive, historical timeline featuring Ada, a timeless traveler. Starting in 1910, Ada journeys through each decade, encountering significant historical events and iconic film characters that embody the spirit of their eras. When we uncover connections between historical events and film characters, these characters reveal how each decade's society is reflected in cinema. Ada could either adapt her appearance to align with each era’s customs, mirroring these characters, or remain ‘neutral’ to highlight the transformations she experiences across time. At each stop, the characters she meets explain the events of their time and how they personify those changes. If possible, we aim to add a machine learning model to predict how film characters may evolve over the next 10–15 years, drawing on current events.
-
-From a technical perspective, Ada’s journey begins with an introduction at the start of the timeline, followed by her journey through each decade as the user scrolls. Each stop on the timeline features 1–2 film characters representing typical figures of the era, who engage in dialogue with Ada against a backdrop of period-specific photos and plots illustrating our analysis. The “dialogues” could be structured vertically, with characters accompanying Ada as she travels downward, or horizontally, with images and narratives displayed sequentially across the screen.
 
 
 ## Proposed timeline :
