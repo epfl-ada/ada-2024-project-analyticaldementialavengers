@@ -34,10 +34,10 @@ We also intend to try a more performant LLM than BERT like GPT-4 to perform the 
 ### Information analysis : 
 
 We intend to perform our analysis in this way : 
-For the most part of our analysis we decided to split our dataset by decade with each decade having its own historical context given by the timeline. We will also select some partiuclar events in order to study their influence on the stereotypical characters appearing in the movies that follow them.   
-1. Using the previously cited tool we will obtain the most recurrent names and adjectives qualifying the characters for each decade or period of interest (see examples in results.ipynb).
-2. This will allow us to performed bar and cloud plots illustrating the most common characters name and adjectives that they are described with for each decade or period of interest (see examples in results.ipynb). We will also complete this analysis by plotting the distribution of some specific terms (or set of terms) highly associated with some historical events (ex : war could be associated with soldiers, captain etc.). 
-3. We intend execute some hypothesis testing and calculate correlations to compare the occurrence of adjectives or names between the different decades (and some specific historical contexts).
+For the most part of our analysis we decided to split our dataset by decade with each decade having its own historical context given by the timeline. In each century we will split the timeline in different cathegories (ex : wars, social revolutions, natural catastrophes) to be able to test the influence of the type of event. We will also select some partiuclar events in order to study their influence on the stereotypical characters appearing in the movies that follow them.   
+1. Using the previously cited tools we will obtain the most recurrent names and adjectives qualifying the characters for each decade or period of interest (see examples in results.ipynb).
+2. This will allow us to perform bar and cloud plots illustrating the most common characters name and adjectives that they are described with for each decade or period of interest (see examples in results.ipynb). We will also complete this analysis by plotting the distribution of some specific terms (or set of terms) highly associated with some historical events (ex : war could be associated with soldiers, captain etc.). 
+3. We intend execute some hypothesis testing and calculate correlations to compare the occurrence of adjectives or names between the different decades (and some specific historical contexts). This will also be helpful to compare the influence of different types of historical events. 
 4. We will also push our analysis further by performing some clustering of the decades or movies within a decade or a historical context by the words related to the characters in them.
 
 ### Eventual predictive model : 
