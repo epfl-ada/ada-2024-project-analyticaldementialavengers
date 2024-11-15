@@ -78,4 +78,5 @@ Annabelle : GPT-4 + ML
 
 ## Questions : 
 - What kind of techniques can we implement to accelerate some very long-running parts in our code ?
-- How can we quantify the bias of our models (especially the pretrained LLMs) ? Our idea was to compare results obtained by LDA, BERT and GPT-4 for having more robust results. 
+- How can we quantify the bias of our models (especially the pretrained LLMs) ? Our idea was to compare results obtained by LDA, BERT and GPT-4 for having more robust results.
+- How can we correlate in a objective manner the history events with the results of our models?
