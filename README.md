@@ -48,7 +48,11 @@ For the most part of our analysis, we decided to split our dataset by decade, wi
 
 ### Eventual predictive model : 
 
-If we have some time left, we might try to fit a machine learning model (regression or neural network) on encoded subsections of the timeline and corresponding character describing adjectives.  
+If time permits, we may explore implementing a machine learning model, such as a regression or
+neural network. This model would be trained on encoded segments of our historical timeline and the
+corresponding character descriptors from our film analysis. This approach could potentially reveal
+patterns or predict character types based on historical contexts, further enhancing our understanding
+of the relationship between historical events and cinematic character representation.
 
 
 ## Proposed timeline :
