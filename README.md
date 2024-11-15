@@ -57,21 +57,14 @@ of the relationship between historical events and cinematic character represent
 
 ## Proposed timeline :
 
-22.10.24 : Team zoom call to discuss first results after dataset discovery
-
-28.10.24 : Explore how the timeline can be extracted from Wikipedia ; Further analyze the dataset
-
-08.11.24 : Analyze movie genre distribution analysis ; Implement LDA and LLM methods in order to analyze plot.summaries dataset ; Extract timeline
-
-15.11.24 : README; Prepare results notebook ; push the LDA + LLM analysis further
-
 06.12.24 : Collecting necessary data for each decade ; Try GPT-4 for information extraction; Begin the inter decade statistical analysis ; Create website
 
 13.12.24 : Clustering analysis ; Maybe some ML ; Pursue website
 
 20.12.24 : Project wrap up
 
-## Organization within the team : 
+## Organization within the team :
+For the following of the project we will split the work in this way : 
 
 Léa : LDA + statistical analysis + clustering analysis
 
@@ -79,10 +72,10 @@ Camille : BERT + statistical analysis + ML
 
 Samara : Timeline extraction + data story + website 
 
-Sara : Dataset exploration + data visualization + website
+Sara : Data visualization + website
 
-Annabelle : LDA + GPT-4 + ML
+Annabelle : GPT-4 + ML
 
 ## Questions : 
 - What kind of techniques can we implement to accelerate some very long-running parts in our code ?
-- How can we quantify the bias of our models (especially the pretrained LLMs) ? 
+- How can we quantify the bias of our models (especially the pretrained LLMs) ? Our idea was to compare results obtained by LDA, BERT and GPT-4 for having more robust results. 
