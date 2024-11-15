@@ -80,3 +80,5 @@ Sara : Dataset exploration + data visualization + website
 Annabelle : LDA + GPT-4 + ML
 
 ## Questions : 
+- What kind of techniques can we implement to accelerate some very long-running parts in our code ?
+- How can we quantify the bias of our models (especially the pretrained LLMs) ? 
