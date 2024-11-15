@@ -7,14 +7,14 @@ This project will begin by exploring various ways of extracting character relate
 ## Research Questions : 
 Does important historical events induce the creation of corresponding stereotypical characters in their contemporary movies ? For example, did the World War II induce a higher occurrence of soldiers characters in the ten years following it ? 
 
-Does a time-lapse exist between the event and its representation in the movie database ? From previous examples, when is the peak of soldiers representation in the movies, during the war, five years after or more ?
-
-Can we predict the stereotypical characters of an era given its historical context ? Is it possible to train a model to perform such a task ?
+Does a time-lapse exist between the event and its character representation in the movie database ? From previous examples, when is the peak of soldiers representation in the movies, during the war, five years after or more ?
 
 What types of events were the most influential of the stereotypical character representation over the twentieth century (ex : wars, social revolutions,
 natural catastrophes) ? 
 
 Are eras having a similar historical context presenting the same stereotypical characters ?
+
+Can we predict the stereotypical characters of an era given its historical context ? Is it possible to train a model to perform such a task ?
 
 ## Additional dataset : 
 In order to match historical moments with the results obtained in the other sections, we need a rather comprehensive timeline of the most relevant events of the years included in the film dataset. 
@@ -36,7 +36,7 @@ We also intend to try a more performant LLM than BERT like GPT-4 to perform the 
 We intend to perform our analysis in this way : 
 We decided to split our dataset by decade. 
 1. Using the previously cited tool we will obtain the most recurrent names and adjectives qualifying the characters for each decade (see examples in results.ipynb).
-2. This will allow us to performed bar and cloud plots illustrating the most common characters name and adjectives that they are described with for each decade (see examples in results.ipynb). We will also complete this analysis by plotting the distribution of some specific terms (or set of terms) highly associated with some historical events (ex : war could be associated with soldiers, weapon etc.). 
+2. This will allow us to performed bar and cloud plots illustrating the most common characters name and adjectives that they are described with for each decade (see examples in results.ipynb). We will also complete this analysis by plotting the distribution of some specific terms (or set of terms) highly associated with some historical events (ex : war could be associated with soldiers, captain etc.). 
 3. We intend execute some hypothesis testing and calculate correlations to compare the occurrence of adjectives or names between the different decades (and maybe some specific historical contexts).
 4. We will also push our analysis further by performing some clustering of the decades or movies within a decade or a historical context by the words related to the characters in them.
 
