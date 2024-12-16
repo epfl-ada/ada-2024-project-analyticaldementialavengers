@@ -49,3 +49,7 @@ Our analysis proceeds by splitting the dataset into decades to match the histori
 - **Annabelle**: LLM application
 - **Samara**: Timeline extraction and LLM application
 - **Sara**: Statsitical analysis during data analysis, writing up the data story and preparing 
+
+## Useful links
+- Link to the data story (website): https://s-vannay.github.io/
+- Ling to the repository of the data story: https://github.com/S-Vannay/S-Vannay.github.io
