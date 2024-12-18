@@ -24,7 +24,7 @@ This research investigates how historical events influence the creation and evol
 
 ## Additional datasets
 <p style="text-align: justify;">
-To link historical events with their cinematic representations, we compiled a timeline of key historical events using datasets from Wikipedia and Wikidata. Given the complexity of analyzing extensive datasets, we focus on significant events, such as world wars, the Cold War, and the Great Depression. This allows us to examine their direct impact on character portrayal in films, ensuring clarity and objectivity in the analysis.
+To link historical events with their cinematic representations, we used wikipedia pages in .txt format of decades from 1900s to 2000s. 
 </p>
 
 ## Methods : 
@@ -34,6 +34,7 @@ To link historical events with their cinematic representations, we compiled a ti
 We tested different techniques to extracte characters description from the text: 
 1. NLTK combined with LDA
 2. BERT (Named Entity Recognition) combined with Spacy
+3. SBERT (Sentence-BERT) 
 
 ### Information analysis
 
@@ -47,7 +48,7 @@ Our analysis proceeds by splitting the dataset into decades to match the histori
 - **Léa**: LDA application to each decade and clustering
 - **Camille**: LLM application (LLMA and BERT)
 - **Annabelle**: LLM application
-- **Samara**: Timeline extraction and LLM application
+- **Samara**: History dataset extraction and LLM application (SBERT)
 - **Sara**: Statsitical analysis during data analysis, writing up the data story and preparing 
 
 **Link to the data story (website)**: https://s-vannay.github.io/
