@@ -1,54 +1,34 @@
 # The metamorphosis of Movie Archetypes: A timeless tale of film personas
 
 ## Abstract
-<p style="text-align: justify;">
-This research investigates how historical events influence the creation and evolution of character archetypes in films. While it's well-known that films reflect societal changes through themes, we explore whether this also extends to the characters portrayed. Our hypothesis posits that major historical events, such as wars and revolutions, give rise to stereotypical character archetypes, like soldiers or activists. We aim to develop methods for extracting character data from film datasets and analyze how these archetypes change over time. This study will deepen our understanding of how cinema mirrors societal transformations.
-</p>
+A given historical context has a high influence on the topics approached in its contemporary movies. Typically, the Japanese animes were a catharsis of the traumas caused by the Second World War to the Japanese population. In this research, we want to test if it is true for the characters portrayed in the movies as well. Has each era a stereotypical character derived from time corresponding historical events (i.e. : are more soldiers characters presented after war events or more astronauts during the space exploration period) ? We aim to create a time journey in which we will meet those time stereotypes and, maybe, given our own historical context, be able to predict what is the incoming character movie star that will be seen played for perhaps the future ten years or more.
 
 ## Research Questions : 
-<p style="text-align: justify;">
-1.How do major historical events influence the creation of stereotypical characters in films? Specifically, how do major historical events (e.g., wars, social revolutions, economic crises) lead to the emergence of recurring character traits or archetypes? For instance, do global conflicts like World War II result in an increase in soldier archetypes? Stereotypical characters will be defined based on recurring descriptors (e.g., soldier, activist, hero) present in plot summaries.
-</p>
+Does important historical events induce the creation of corresponding stereotypical characters in their contemporary movies ?
 
-<p style="text-align: justify;">
-2. What is the temporal gap between significant historical events and the appearance of related character archetypes in films? How long after an event do these characters begin to appear, and when do they peak in frequency? For example, do soldier characters emerge immediately after World War II or years later? Trend measurements will be quantified by tracking the frequency of character archetypes and associated descriptors (e.g., soldier, veteran) over decades and comparing their appearance relative to historical events.
-</p>
+Does a time-lapse exist between the event and its representation in the movie database ?
 
-<p style="text-align: justify;">
-3. Which types of historical events have the most significant influence on the emergence of stereotypical character archetypes? Do wars, social revolutions, economic crises, or natural disasters produce the most pronounced shifts in character representation? What types of characters (e.g., soldiers, rebels, entrepreneurs) are most strongly associated with different types of events? We will categorize events into types (e.g., wars, revolutions, economic downturns) and measure the association between each type and the emergence of specific character traits.
-</p>
+Can we predict the stereotypical characters of an era given its historical context ?
 
-<p style="text-align: justify;">
-4. How do historical contexts with similar characteristics result in the emergence of comparable character archetypes across different eras? Do similar social or political climates (e.g., periods of war or economic hardship) lead to the creation of similar character types across different decades? For example, do both the World Wars and the Cold War produce characters like soldiers, spies, or heroes? We will use clustering or semantic similarity techniques to identify common character traits across different eras and compare how similar historical contexts influence character creation. 
-</p>
+What types of events were the most influential of the stereotypical character representation over the
 
-## Additional datasets
-<p style="text-align: justify;">
-To link historical events with their cinematic representations, we used wikipedia pages in .txt format of decades from 1900s to 2000s. 
-</p>
+twentieth century (ex : wars, social revolutions,
+natural catastrophes) ? 
+
+Are era having a similar historical context presenting the same stereotypical characters ?
+
+## Additional dataset : 
+In order to match historical moments with the results obtained in the other sections, we need a rather comprehensive timeline of the most relevant events of the years included in the film dataset. 
+To do this, we implemented several methods to objectively obtain significant events, such as extracting content from wikipedia pages or downloading more precise datasets using Wikidata queries. 
+In doing so, we realised that using datasets that are too long does not allow us, with the time and means at our disposal, to be able to analyse these events in depth. For example, dividing wars by nation is very difficult, as it involves a part of manual data addition, which can never be objective (e.g. are economic supporters of the war included or not, how are political parties belonging to several nations treated?, ...). For this reason, for project milestone 3 we have chosen to focus on fewer events, but which can be clearly and objectively treated, e.g. world wars, the cold war, the economic crisis of ‘29 and events of this magnitude.
 
 ## Methods : 
+- Extraction of the most frequent words in the summary database using NLTK and LDA
+- Extraction of the adjectives associated with the characters in the summaries using BERT and Spacy
+- Extraction of the characters description and characteristics in the summaries using LLM (GPT-4)
+- Implementing student T-tests to assess different occurrences of words, adjectives or characteristics associated with characters depending on the time era
+- Maybe try some ML (simple regression or neural network) to see if given some historical context, it is possible to predict the words, adjectives or characteristics that appears the most in the movies summaries
 
-### Character related information extraction : 
 
-We tested different techniques to extracte characters description from the text: 
-1. NLTK combined with LDA
-2. BERT (Named Entity Recognition) combined with Spacy
-3. SBERT (Sentence-BERT) 
+## Proposed timeline :
 
-### Information analysis
-
-Our analysis proceeds by splitting the dataset into decades to match the historical context of each period. We focus on identifying recurring names and adjectives associated with characters, which will allow us to:
-1. Plot character trends: Visualizing the most common character names and adjectives for each decade using bar plots and word clouds.
-2. Examine term associations: Plotting the distribution of terms associated with specific historical events (e.g., "war" may correlate with "soldier" or "captain").
-3. Conduct statistical tests: Comparing the frequency of character names and traits across different decades and historical contexts to identify correlations between historical events and character types.
-4. Clustering analysis: Grouping films by decade or historical context based on character-related terms to explore patterns and similarities between eras with similar events.
-
-## Contribution of all group members
-- **Léa**: LDA application to each decade and clustering
-- **Camille**: LLM application (LLMA and BERT)
-- **Annabelle**: LLM application
-- **Samara**: History dataset extraction and LLM application (SBERT)
-- **Sara**: Statsitical analysis during data analysis, writing up the data story and preparing 
-
-**Link to the data story (website)**: https://s-vannay.github.io/
