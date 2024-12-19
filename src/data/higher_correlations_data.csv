@@ -1,4 +1,4 @@
-Decade,Movies cluster,History cluster,Accuracy
+Decade,Movies cluster,History cluster,Correlation
 1900,Transmit,Opera,0.42996696
 1900,Radio,Flight,0.4691099
 1910,Studio,Movie,0.39651936
