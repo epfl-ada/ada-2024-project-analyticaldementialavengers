@@ -7,11 +7,7 @@ This research investigates how historical events influence the creation and evol
 
 ## Research Questions : 
 <p style="text-align: justify;">
-1.How do major historical events influence the creation of stereotypical characters in films? Specifically, how do major historical events (e.g., wars, social revolutions, economic crises) lead to the emergence of recurring character traits or archetypes? For instance, do global conflicts like World War II result in an increase in soldier archetypes? Stereotypical characters will be defined based on recurring descriptors (e.g., soldier, activist, hero) present in plot summaries.
-</p>
-
-<p style="text-align: justify;">
-2. What is the temporal gap between significant historical events and the appearance of related character archetypes in films? How long after an event do these characters begin to appear, and when do they peak in frequency? For example, do soldier characters emerge immediately after World War II or years later? Trend measurements will be quantified by tracking the frequency of character archetypes and associated descriptors (e.g., soldier, veteran) over decades and comparing their appearance relative to historical events.
+1.How do major historical events influence the creation of stereotypical characters in films with an evenutal temporal gap between both? Specifically, how do major historical events (e.g., wars, social revolutions, economic crises) lead to the emergence of recurring character traits or archetypes? For instance, do global conflicts like World War II result in an increase in soldier archetypes? Stereotypical characters will be defined based on recurring descriptors (e.g., soldier, activist, hero) present in plot summaries.
 </p>
 
 <p style="text-align: justify;">
@@ -42,15 +38,15 @@ We tested different techniques to extracte characters description from the text:
 ### Information analysis
 
 Our analysis proceeds by splitting the dataset into decades to match the historical context of each period. We focus on identifying recurring names and adjectives associated with characters, which will allow us to:
-1. Plot character trends: Visualizing the most common character names and adjectives for each decade using bar plots and word clouds.
-2. Conduct statistical tests: Comparing the frequency of character names and traits across different decades to identify correlations between historical events and character types.
-3. Clustering analysis: Grouping films by decade or historical context based on terms in their summaries to explore patterns and similarities between eras with similar events.
+1. Plot character trends: Visualizing the most common words for each decade using bar plots and word clouds.
+2. Conduct statistical tests: Comparing the frequency of character names and traits across different decades to identify correlations (Pearson) between historical events and character types.
+4. Clustering analysis: Grouping films by decade or historical context based on terms in their summaries to explore patterns and similarities between eras with similar events (this was done using PCA as well).
 
 ## Contribution of all group members
 - **Léa**: LDA application to each decade and clustering
 - **Camille**: LLM application (LLMA and BERT)
 - **Annabelle**: LDA correlation and wikipedia summaries dataset extraction
 - **Samara**: History dataset extraction and LLM application (SBERT)
-- **Sara**: Statsitical analysis during data analysis, writing up the data story and preparing 
+- **Sara**: Statsitical analysis during data analysis, writing up the data story and website
 
 **Link to the data story (website)**: https://s-vannay.github.io/
