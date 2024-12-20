@@ -1,0 +1,25 @@
+Decade,Movies cluster,History cluster,Correlation
+1900,Transmit,Opera,0.42996696
+1900,Radio,Flight,0.4691099
+1910,Studio,Movie,0.39651936
+1920,Queen,Fashion,0.39986408
+1920,Queen,Tennis,0.41021675
+1920,Experiment,Rights,0.4022392
+1930,Apocalypse,Music,0.36167327
+1930,Murder,Music,0.36106032
+1940,Horror,WWII,0.35037574
+1940,Train,WWII,0.41837814
+1950,Genre,Actors,0.40627792
+1950,Names,Entertainment,0.35370672
+1960,Family,Footwear,0.5320549
+1960,Family,Counterculture,0.5262842
+1960,Warfare,Moon,0.44830644
+1970,Warrior,Computer,0.36840472
+1970,Warrior,Music,0.4126629
+1980,Survival,Disaster,0.40836987
+1980,Survival,Fashion,0.3716553
+1980,Mafia,Fashion,0.4235136
+1990,Airplane,Murder,0.45461103
+1990,Lovers,Murder,0.5151317
+2000,Relationships,Scandal,0.46581408
+2000,Adventure,Sports,0.3968816
