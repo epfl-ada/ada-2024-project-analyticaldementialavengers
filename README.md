@@ -43,14 +43,13 @@ We tested different techniques to extracte characters description from the text:
 
 Our analysis proceeds by splitting the dataset into decades to match the historical context of each period. We focus on identifying recurring names and adjectives associated with characters, which will allow us to:
 1. Plot character trends: Visualizing the most common character names and adjectives for each decade using bar plots and word clouds.
-2. Examine term associations: Plotting the distribution of terms associated with specific historical events (e.g., "war" may correlate with "soldier" or "captain").
-3. Conduct statistical tests: Comparing the frequency of character names and traits across different decades and historical contexts to identify correlations between historical events and character types.
-4. Clustering analysis: Grouping films by decade or historical context based on character-related terms to explore patterns and similarities between eras with similar events.
+2. Conduct statistical tests: Comparing the frequency of character names and traits across different decades to identify correlations between historical events and character types.
+3. Clustering analysis: Grouping films by decade or historical context based on terms in their summaries to explore patterns and similarities between eras with similar events.
 
 ## Contribution of all group members
 - **Léa**: LDA application to each decade and clustering
 - **Camille**: LLM application (LLMA and BERT)
-- **Annabelle**: LLM application
+- **Annabelle**: LDA correlation and wikipedia summaries dataset extraction
 - **Samara**: History dataset extraction and LLM application (SBERT)
 - **Sara**: Statsitical analysis during data analysis, writing up the data story and preparing 
 
