@@ -34,17 +34,24 @@ We tested different techniques to extracte characters description from the text:
 1. NLTK combined with LDA
 2. BERT (Named Entity Recognition) combined with Spacy
 3. SBERT (Sentence-BERT) 
+4. LLAMA (extraction of stereotypical characters of each decade from the clustered movies summaries)
 
 ### Information analysis
 
 Our analysis proceeds by splitting the dataset into decades to match the historical context of each period. We focus on identifying recurring names and adjectives associated with characters, which will allow us to:
 1. Plot character trends: Visualizing the most common words for each decade using bar plots and word clouds.
 2. Conduct statistical tests: Comparing the frequency of character names and traits across different decades to identify correlations (Pearson) between historical events and character types.
-4. Clustering analysis: Grouping films by decade or historical context based on terms in their summaries to explore patterns and similarities between eras with similar events (this was done using PCA as well).
+4. Clustering analysis: Grouping films by decade or historical context based on terms in their summaries to explore patterns and similarities between eras with similar events.
+5. S-BERT (sentence-BERT) : creation of embeddings from the sentences of movie summaries and wikipedia timeline based on lexical fields.
+6. PCA and clustering : 2D representation of clusters of movies embeddings clustered with k-means.
+
+### Installation requirements
+
+The use of Llama requires installation of Ollama (more information about download on https://ollama.com).
 
 ## Contribution of all group members
 - **Léa**: LDA application to each decade and clustering
-- **Camille**: LLM application (LLMA and BERT)
+- **Camille**: LLM application (LLAMA and BERT)
 - **Annabelle**: LDA correlation and wikipedia summaries dataset extraction
 - **Samara**: History dataset extraction and LLM application (SBERT)
 - **Sara**: Statsitical analysis during data analysis, writing up the data story and website
