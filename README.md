@@ -25,6 +25,7 @@ This research investigates how historical events influence the creation and evol
 ## Additional datasets
 <p style="text-align: justify;">
 To link historical events with their cinematic representations, we used wikipedia pages in .txt format of decades from 1900s to 2000s. 
+To see if correlations between the historical wikipedia pages and the movies summaries from plot_summaries were biased by their different structures we also tried some correlations with the wikipedia summaries of some movies in .txt format (see in src/data/movie_selection.ipynd to have a list of the movies).
 </p>
 
 ## Methods : 
