@@ -11,11 +11,11 @@ This research investigates how historical events influence the creation and evol
 </p>
 
 <p style="text-align: justify;">
-3. Which types of historical events have the most significant influence on the emergence of stereotypical character archetypes? Do wars, social revolutions, economic crises, or natural disasters produce the most pronounced shifts in character representation? What types of characters (e.g., soldiers, rebels, entrepreneurs) are most strongly associated with different types of events? We will categorize events into types (e.g., wars, revolutions, economic downturns) and measure the association between each type and the emergence of specific character traits.
+2. Which types of historical events have the most significant influence on the emergence of stereotypical character archetypes? Do wars, social revolutions, economic crises, or natural disasters produce the most pronounced shifts in character representation? What types of characters (e.g., soldiers, rebels, entrepreneurs) are most strongly associated with different types of events? We will categorize events into types (e.g., wars, revolutions, economic downturns) and measure the association between each type and the emergence of specific character traits.
 </p>
 
 <p style="text-align: justify;">
-4. How do historical contexts with similar characteristics result in the emergence of comparable character archetypes across different eras? Do similar social or political climates (e.g., periods of war or economic hardship) lead to the creation of similar character types across different decades? For example, do both the World Wars and the Cold War produce characters like soldiers, spies, or heroes? We will use clustering or semantic similarity techniques to identify common character traits across different eras and compare how similar historical contexts influence character creation. 
+3. How do historical contexts with similar characteristics result in the emergence of comparable character archetypes across different eras? Do similar social or political climates (e.g., periods of war or economic hardship) lead to the creation of similar character types across different decades? For example, do both the World Wars and the Cold War produce characters like soldiers, spies, or heroes? We will use clustering or semantic similarity techniques to identify common character traits across different eras and compare how similar historical contexts influence character creation. 
 </p>
 
 ## Additional datasets
